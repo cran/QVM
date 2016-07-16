@@ -13,22 +13,23 @@ QVM is an interface
 This package does a multivariate analysis for questionnaire validation with Likert-type scale variables.
 
 You can learn more about this package at:
-http://www.uv.mx/personal/nehuerta/qvm
+http://www.uv.mx/personal/nehuerta/qvm/
 }
 \details{
 Introduce a data set of categorical information and classifed as numerical data.
+Choose a data set (delimited csv for comma).
 This funtion takes a data set and applies questionnaire validatioin techniques to return parameter estimates.
 }
 \examples{
 \dontrun{
-##Install package
+##Call to library
 library(QVM)
 ##Call the package
 QVM()
 }
 }
 \author{
-Nery Sofia Huerta-Pacheco, Purificacion Vicente-Galindo
+Nery Sofia Huerta-Pacheco, Purificacion Vicente-Galindo, Mercedes Sanchez Barba,  Maria Purificacion Galindo Villardon
 }
 \references{
 Allen, F., & Locker, D. (2002). A Modified Short Version of the Oral Health Impact
